@@ -654,7 +654,7 @@ class VsiljenaNihanja(man.Scene):
 
         self.IINZ = man.Tex("II. Newtonov zakon").move_to([4, 1, 0])
         self.enacba_prej = man.MathTex("\\sum F = ma").move_to([4, 0, 0])
-        self.enacba_potem = man.MathTex("\\sum F = m \\dot{x}").move_to([4, 0, 0])
+        self.enacba_potem = man.MathTex("\\sum F = m \\dotdot{x}").move_to([4, 0, 0])
         
 # ---------------------------------------------------------------------------------------------- prikaz animacij
 
